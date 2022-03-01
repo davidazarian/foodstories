@@ -1,0 +1,42 @@
+@media screen and (max-width:991px) {
+    .nopadl {
+        padding-left: 15px;
+    }
+    .nopadr {
+        padding-right: 15px;
+    }
+    .mobc {
+        text-align: center!important;
+    }
+    .nomob {
+        display: none
+    }
+    .onlymob {
+        display: block
+    }
+    section {
+        height: auto!important;
+        padding-top: 35px !important;
+        padding-bottom: 35px !important;
+        margin: 0!important;
+        min-height: 10px!important;
+    }
+    .row.mobowl {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .mopad0 {
+        padding: 0!important;
+    }
+    body.modal-open {
+        padding-right: 0 !important;
+    }
+}
+@media screen and (max-width:767px) {
+    .noxs {
+        display: none
+    }
+    .onlyxs {
+        display: block
+    }
+}
